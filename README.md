@@ -2,7 +2,7 @@
 Setup script for a windows developer!
 
 ## Usage
-Run `Set-ExecutionPolicy Bypass -Scope Process -Force; index.p1` on a powershell as admin
+Run `Set-ExecutionPolicy Bypass -Scope Process -Force; ./index.ps1` on a powershell as admin
 
 ## Settings
 

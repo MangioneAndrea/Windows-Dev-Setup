@@ -1,4 +1,3 @@
-Set-ExecutionPolicy Bypass -Scope Process -Force;
 Import-Csv (Join-Path -Path  (split-path -parent $MyInvocation.MyCommand.Definition) -ChildPath './apps.csv') |
 ForEach-Object {
     $App = $_.App
